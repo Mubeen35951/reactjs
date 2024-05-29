@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/reactjs/static/css/main.ab637507.css",
+    "main.js": "/reactjs/static/js/main.5686ef34.js",
+    "static/js/453.3669db72.chunk.js": "/reactjs/static/js/453.3669db72.chunk.js",
+    "static/media/pro10.png": "/reactjs/static/media/pro10.861c33d212a2626d4850.png",
+    "static/media/pro2.png": "/reactjs/static/media/pro2.fb359dee8670fdfa8b29.png",
+    "static/media/pro1.png": "/reactjs/static/media/pro1.d01c5b04eee809c2fdca.png",
+    "static/media/pro9.png": "/reactjs/static/media/pro9.af4b7c3baeb892ce3ce2.png",
+    "static/media/pro7.png": "/reactjs/static/media/pro7.68a92d200f7f8f0850f1.png",
+    "static/media/pro11.png": "/reactjs/static/media/pro11.a528f881f1e4b53fa3a6.png",
+    "static/media/MyNightDemoRegular.ttf": "/reactjs/static/media/MyNightDemoRegular.18c076b5223ec67f1e20.ttf",
+    "static/media/pro8.png": "/reactjs/static/media/pro8.effecfa53d35d670cd3b.png",
+    "static/media/DancingScript-Bold.ttf": "/reactjs/static/media/DancingScript-Bold.754b6935ec19cf73d6b2.ttf",
+    "static/media/pro6.png": "/reactjs/static/media/pro6.5918081f0c85416d271c.png",
+    "static/media/WhatsApp Image 2024-04-25 at 16.35.16_b8f4f6ac.jpg": "/reactjs/static/media/WhatsApp Image 2024-04-25 at 16.35.16_b8f4f6ac.d6b08280cfc27b777f74.jpg",
+    "static/media/Shialbert.otf": "/reactjs/static/media/Shialbert.31fe3428c06fa5b3bdf9.otf",
+    "static/media/pro3.png": "/reactjs/static/media/pro3.59b0bfbec187ca9617c3.png",
+    "static/media/github.png": "/reactjs/static/media/github.e4c2ff96cb6340fa827a.png",
+    "static/media/pro4.png": "/reactjs/static/media/pro4.a698449d4542373e4c66.png",
+    "index.html": "/reactjs/index.html",
+    "main.ab637507.css.map": "/reactjs/static/css/main.ab637507.css.map",
+    "main.5686ef34.js.map": "/reactjs/static/js/main.5686ef34.js.map",
+    "453.3669db72.chunk.js.map": "/reactjs/static/js/453.3669db72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab637507.css",
+    "static/js/main.5686ef34.js"
+  ]
+}
