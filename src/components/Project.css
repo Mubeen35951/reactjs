@@ -1,0 +1,172 @@
+@media (min-width: 1201px) {
+
+    .pro {
+      margin-top: 82px;
+      display: flex;
+      justify-content: center;
+      margin-left: -33%;
+      margin-top: -10%;
+      /* width: 156.5%; Note: You have duplicated the width property here */
+
+    }
+    @keyframes slideInForm {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+    }
+    .projectcontainer {
+      max-width: 1366px; /* Adjusted to limit width */
+      width: 100%;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  
+    .cont65 {
+      height: 300px;
+      width: calc(25% - 10px); /* Adjusted to ensure four boxes per row with gap */
+      border: 1px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .see{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+       }
+       .seemore{
+        background-color: #535353;
+        margin-top:0 ;
+        font-size: 17px;
+    padding: 20px 30px 20px 30px;
+        
+    }
+    
+    
+  }
+  
+@media (min-width: 901px) and (max-width: 1200px) {
+   .pro {
+       margin-top: 100px;
+       margin-left: -30px;
+       width: 100%;
+       padding: 20px;
+       flex-direction: column;
+       align-items: center;
+       position: static;
+   }
+
+   .projectcontainer {
+      width: 100%;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-left: 30px;
+      flex-wrap: wrap;
+   }
+
+   .cont65 {
+       height: 300px;
+       width: 30%;
+       margin-bottom: 20px;
+   border: 1px solid white;
+   display: flex;
+
+   }
+    .see{
+        display: flex;
+        justify-content: center;
+    }
+    .seemore{
+        background-color: #535353;
+        margin-top: 70px;
+    padding: 10px 30px 10px 30px;
+        position: absolute;
+        
+    }
+
+
+}
+@media (max-width: 600px) {
+   .pro {
+       margin-top: 40px;
+       margin-left: 0;
+       width: 100%;
+       padding: 10px;
+       flex-direction: column;
+       align-items: center;
+       position: static;
+   }
+
+   .projectcontainer {
+       width: 100%;
+       height: auto;
+       gap: 5px;
+   }
+
+   .cont65 {
+       height: 300px;
+       width: 100%;
+       margin-bottom: 10px;
+   border: 1px solid white;
+display: flex;
+   }
+   .see{
+    display: flex;
+    justify-content: center;
+   }
+   .seemore{
+    background-color: #535353;
+    margin-top: 40px;
+padding: 10px 30px 10px 30px;
+    position: absolute;
+}
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+   .pro {
+       margin-top: 35px;
+       margin-left: 0;
+       width: 100%;
+       padding: 15px;
+       flex-direction: column;
+       align-items: center;
+       position: static;
+   }
+
+   .projectcontainer {
+       width: 100%;
+       height: auto;
+       gap: 10px;
+   }
+
+   .cont65 {
+       height: 300px;
+       width: 100%;
+       margin-bottom: 15px;
+   border: 1px solid white;
+   display: flex;
+
+   }
+   .see{
+    display: flex;
+    justify-content: center;
+   }
+   .seemore{
+    background-color: #535353;
+    margin-top: 40px;
+padding: 10px 30px 10px 30px;
+    position: absolute;
+}
+}
+
+

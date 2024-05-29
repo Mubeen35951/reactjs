@@ -1,0 +1,15 @@
+/* Ensure you select the body element */
+body {
+  background-color: #7b7b7b; /* Replace with your desired color */
+  margin: 0; /* Reset margin to avoid unwanted space */
+  padding: 0; /* Reset padding to avoid unwanted space */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+/* Optional: Ensure other elements don't inherit the body's margin or padding */
+* {
+  box-sizing: inherit;
+}
+
+/* Example of styling for your container to ensure it doesn't move */
+

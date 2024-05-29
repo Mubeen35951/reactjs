@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.form1 {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light gray background */
+  border-radius: 10px;
+  height: 480px;
+  box-shadow: 4px 4px 4px #363636;
+  animation: slideInForm 0.5s ease forwards; /* Add slide animation to the form */
+}
+
+@keyframes slideInForm {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form1 select,
+.form1 input[type="text"],
+.form1 input[type="email"],
+.form1 input[type="tel"],
+.form1 textarea {
+  animation: slideInForm .5s ease backwards;
+  outline-style: none;
+  box-shadow: none;
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* White background for inputs and textarea */
+  color: #333; /* Text color */
+  width: 100%;
+}
+
+.form1 textarea {
+  height: 150px;
+  display: flex;
+  resize: none;
+}
+
+.form1 button {
+  width: 100%;
+  padding: 10px;
+  background-color: #727272;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  box-shadow: #000000 2px 2px 2px;
+}
+
+.form1 button:hover {
+  background-color: rgb(66, 66, 66);
+  box-shadow: none;
+}
+
+.success-message,
+.error-message {
+  margin-top: 140px;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.success-message {
+  color: rgb(155, 255, 6);
+  font-size: 70px;
+}
+
+.error-message {
+  color: rgb(255, 66, 66);
+  font-size: 20px;
+  margin-top: -5px;
+}
+.info-message{
+  color: rgb(155, 255, 6);
+
+  font-size: 20px;
+  margin-top: -5px;
+}
+
+
+.info-message {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.info-message p {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .form1 {
+    height: auto;
+  }
+  
+  
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+
+}
