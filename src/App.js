@@ -1,10 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Nav from './components/Nav';
 import Home from './components/Home';  // Assuming Home is a default export
 import './App.css';  // Import the global CSS file
 import Contact from './components/Contact';
 import Projectpage from './components/Projectpage';
+
 const App = () => {
   return (
     <Router>
@@ -12,10 +13,9 @@ const App = () => {
         <Nav />
         <div className="main-content">
           <Routes>
-          <Route path="/" element={<Home />} />
-            <Route path="/Contact" element={<Contact />} />
-            <Route path="/Projectpages" element={<Projectpage />} />
-              
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projectpages" element={<Projectpage />} />
             {/* Add more routes as needed */}
           </Routes>
         </div>
