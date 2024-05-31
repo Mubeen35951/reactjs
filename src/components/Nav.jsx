@@ -12,7 +12,7 @@ const Nav = () => {
         <li className="navcomponents"><Link className="navcomponents" to="/contact">Contact</Link></li>
       
       </ul>
-      
+      dfdfdf
     </div>
   );
 };
