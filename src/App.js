@@ -8,7 +8,7 @@ import Projectpage from './components/Projectpage';
 
 const App = () => {
   return (
-    <Router basename='/portfolio'>
+    <Router>
       <div className="app-container">
         <Nav />
         <div className="main-content">
